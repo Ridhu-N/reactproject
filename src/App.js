@@ -1,12 +1,20 @@
-import logo from './logo.svg';
+import React from 'react';
 import './App.css';
 
-function App() {
+function App(props) {
   return (
-    <div className="App">
-      <h1>Helloooo</h1>
+    <div>
+      <h1 className='h1'>Helloooo Ridhu Welcome back !! </h1>
+      <>{`I love ${props.brand} cars`}</>
     </div>
   );
 }
-
-export default App;
+const myElement = <App brand="Ford"/>
+function App1(){
+  return(
+    <div>
+      {myElement}
+    </div>
+  )
+}
+export default App1;
