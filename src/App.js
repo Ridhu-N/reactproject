@@ -1,7 +1,7 @@
 import React from 'react';
 import './App.css';
 
-function App(props) {
+function App1(props) {
   return (
     <div>
       <h1 className='h1'>Helloooo Ridhu Welcome back !! </h1>
@@ -9,12 +9,12 @@ function App(props) {
     </div>
   );
 }
-const myElement = <App brand="Ford"/>
-function App1(){
+const myElement = <App1 brand="Ford"/>
+function App(){
   return(
     <div>
       {myElement}
     </div>
   )
 }
-export default App1;
+export default App;
